@@ -1,5 +1,5 @@
 controller_list:
-  - name: "arm_contoller"
+  - name: "arm"
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     joints:
@@ -9,3 +9,10 @@ controller_list:
       - wrist_1_joint
       - wrist_2_joint
       - wrist_3_joint
+controller_list:
+  - name: "gripper"
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - gripper_finger1_joint

@@ -1,4 +1,4 @@
-# Universal robot workspace
+# Universal robot with robotiq hand workspace
 
 ## Build
 
