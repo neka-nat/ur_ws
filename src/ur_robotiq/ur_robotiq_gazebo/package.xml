@@ -22,7 +22,7 @@
   <run_depend>robot_state_publisher</run_depend>
   <run_depend>controller_manager</run_depend>
 
-
   <export>
+    <gazebo_ros gazebo_model_path="${prefix}/meshes" />
   </export>
 </package>

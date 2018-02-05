@@ -11,7 +11,7 @@
   <joint name="world_joint" type="fixed">
     <parent link="world" />
     <child link = "base_link" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    <origin xyz="0.0 0.0 0.5" rpy="0.0 0.0 ${pi}" />
   </joint>
 
   <xacro:robotiq_85_gripper prefix="" parent="wrist_3_link" >
