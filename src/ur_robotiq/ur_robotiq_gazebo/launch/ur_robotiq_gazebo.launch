@@ -22,5 +22,9 @@
   <include file="$(find ur_robotiq_moveit_config)/launch/move_group.launch">
     <arg name="debug" default="$(arg debug)" />
   </include>
+  <include file="$(find ur_robotiq_moveit_config)/launch/moveit_rviz.launch">
+    <arg name="debug" default="$(arg debug)" />
+    <arg name="config" default="true" />
+  </include>
 
 </launch>
