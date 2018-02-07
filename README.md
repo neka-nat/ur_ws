@@ -15,3 +15,5 @@ catkin build
 source devel/setup.bash
 roslaunch ur_robotiq_gazebo ur_robotiq_gazebo.launch
 ```
+
+![ur_robotiq](images/ur_robotiq.jpg)
