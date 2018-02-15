@@ -26,3 +26,13 @@ rosrun ur_robotiq_manipulation grasp_object.py
 ```
 
 ![grasping](images/grasping.gif)
+
+## Camera Images
+
+RGB image
+
+![rbg](images/camera_rgb_image.png)
+
+Depth image
+
+![depth](images/camera_depth_image.png)
