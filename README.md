@@ -36,3 +36,7 @@ RGB image
 Depth image
 
 ![depth](images/camera_depth_image.png)
+
+## Multiple Arms
+
+![multi_arms](images/multiple_arms.jpg)
