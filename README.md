@@ -3,9 +3,13 @@
 ## Build
 
 ```
+source /opt/ros/kinetic/setup.bash
 cd ur_ws/src
 wstool update
 cd ../
+sudo rosdep init
+rosdep update
+rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
 catkin build
 ```
 
